@@ -24,8 +24,8 @@ export const QuizContainer = styled.div`
 function Image({ src, indice }) {
     const key = '191e83';
     const thumbnail = `
-https://api.screenshotmachine.com?key=${key}&url=${src}&dimension=1024x768&cacheLimit=2
-  `;
+        https://api.screenshotmachine.com?key=${key}&url=${src}&dimension=1024x768&cacheLimit=2
+    `;
 
     return (
         <a href={src} style={{ display: 'inline-block', fontSize: '0' }}>
@@ -80,7 +80,7 @@ export default function ContributorsPage({ contributors }) {
                 </div>
                 <Footer />
             </QuizContainer>
-            <GitHubCorner projectUrl="https://github.com/omariosouto" />
+            <GitHubCorner projectUrl="https://github.com/higorpo/css-quiz" />
         </QuizBackground>
     );
 }
