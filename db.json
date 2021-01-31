@@ -24,6 +24,75 @@
                 "background: linear-gradient(#e66465, #9198e5);",
                 "background: gradient(#e66465, #9198e5);"
             ]
+        },
+        {
+            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+            "title": " No CSS, os seletores são nomenclaturas padronizadas destinadas a selecionar elementos para aplicação de estilo. O seletor “.nome” seleciona os elementos que possuem ",
+            "description": "Você sabe, né?!",
+            "answer": 2,
+            "alternatives": [
+                "o atributo id=“nome”",
+                "o atributo name=“nome”",
+                "o atributo class=“nome”",
+                "a tag <nome>",
+                "a tag <nome> e são filhos do elemento raiz"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/m9eG1qVjvN56H0MXt8/giphy.gif",
+            "title": "Para ocultar um elemento em um documento utilizando CSS, pode-se alterar a propriedade “display” para “none”, ou “visibility” para “hidden”. A diferença entre essas alterações é que",
+            "description": "Você sabe, né?!",
+            "answer": 4,
+            "alternatives": [
+                "“display: none” ocultará o elemento, no entanto, o espaço ocupado por ele continuará afetando o layout da página",
+                "“display: none” não é suportada pelo Internet Explorer 10",
+                "“display: none” afeta apenas o elemento selecionado, enquanto “visibility: hidden” afeta o elemento selecionado e todos os outros elementos associados a ele",
+                "“visibility: hidden” afeta apenas o elemento selecionado, enquanto “display: none” afeta o elemento selecionado e todos os outros elementos associados a ele.",
+                "“visibility: hidden” ocultará o elemento, no entanto, o espaço ocupado por ele continuará afetando o layout da página."
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/3o6ozjrPeWQifzyA6Y/giphy.gif",
+            "title": " O CSS3 permite o uso das chamadas Web Fonts, fontes que não estão necessariamente instaladas no computador do usuário. Os navegadores atuais oferecem suporte para formatos variados de fontes. Para oferecer melhor compressão e suporte a metadados adicionais, o formato suportado pelo W3C que o webdesigner deve utilizar é: ",
+            "description": "Dica: Termina em F",
+            "answer": 4,
+            "alternatives": [
+                "EOT",
+                "SVG",
+                "TTF",
+                "OTF",
+                "WOFF"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/WoFB7X0atgMyKb1wBg/giphy.gif",
+            "title": " Qual é a propriedade do CSS que estabelece o raio da borda inferior esquerda do box? ",
+            "description": "",
+            "answer": 3,
+            "alternatives": [
+                "border-top-left-radius ",
+                "border-bottom-right-radius ",
+                "border-left-radius ",
+                "border-bottom-left-radius ",
+                "border-top-right-radius ",
+                "border-radius-bottom-left ",
+                "border-radius "
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/WoFB7X0atgMyKb1wBg/giphy.gif",
+            "title": " Qual é a propriedade do CSS que estabelece o raio da borda inferior esquerda do box? ",
+            "description": "",
+            "answer": 3,
+            "alternatives": [
+                "border-top-left-radius ",
+                "border-bottom-right-radius ",
+                "border-left-radius ",
+                "border-bottom-left-radius ",
+                "border-top-right-radius ",
+                "border-radius-bottom-left ",
+                "border-radius "
+            ]
         }
     ],
     "external": [
