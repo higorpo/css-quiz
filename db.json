@@ -42,13 +42,13 @@
             "image": "https://media.giphy.com/media/m9eG1qVjvN56H0MXt8/giphy.gif",
             "title": "Para ocultar um elemento em um documento utilizando CSS, pode-se alterar a propriedade “display” para “none”, ou “visibility” para “hidden”. A diferença entre essas alterações é que",
             "description": "Você sabe, né?!",
-            "answer": 4,
+            "answer": 3,
             "alternatives": [
                 "“display: none” ocultará o elemento, no entanto, o espaço ocupado por ele continuará afetando o layout da página",
                 "“display: none” não é suportada pelo Internet Explorer 10",
                 "“display: none” afeta apenas o elemento selecionado, enquanto “visibility: hidden” afeta o elemento selecionado e todos os outros elementos associados a ele",
-                "“visibility: hidden” afeta apenas o elemento selecionado, enquanto “display: none” afeta o elemento selecionado e todos os outros elementos associados a ele.",
-                "“visibility: hidden” ocultará o elemento, no entanto, o espaço ocupado por ele continuará afetando o layout da página."
+                "“visibility: hidden” ocultará o elemento, no entanto, o espaço ocupado por ele continuará afetando o layout da página.",
+                "“visibility: hidden” afeta apenas o elemento selecionado, enquanto “display: none” afeta o elemento selecionado e todos os outros elementos associados a ele."
             ]
         },
         {

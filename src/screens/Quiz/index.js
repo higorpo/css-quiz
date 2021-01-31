@@ -76,6 +76,17 @@ function QuestionWidget({
     const isCorrect = selectedAlternative === question.answer;
     const hasAlternativeSelected = selectedAlternative !== undefined;
 
+    function handleSelectQuestion(alternativeIndex) {
+        setSelectedAlternative(alternativeIndex);
+        setIsQuestionSubmited(true);
+        setTimeout(() => {
+            addResult(isCorrect);
+            onSubmit();
+            setIsQuestionSubmited(false);
+            setSelectedAlternative(undefined);
+        }, 3 * 1000);
+    }
+
     return (
         <Widget>
             <Widget.Header>
@@ -102,18 +113,7 @@ function QuestionWidget({
                     {question.description}
                 </p>
 
-                <AlternativesForm
-                    onSubmit={(infosDoEvento) => {
-                        infosDoEvento.preventDefault();
-                        setIsQuestionSubmited(true);
-                        setTimeout(() => {
-                            addResult(isCorrect);
-                            onSubmit();
-                            setIsQuestionSubmited(false);
-                            setSelectedAlternative(undefined);
-                        }, 3 * 1000);
-                    }}
-                >
+                <AlternativesForm>
                     {question.alternatives.map((alternative, alternativeIndex) => {
                         const alternativeId = `alternative__${alternativeIndex}`;
                         const alternativeStatus = isCorrect ? 'SUCCESS' : 'ERROR';
@@ -131,23 +131,13 @@ function QuestionWidget({
                                     style={{ display: 'none' }}
                                     id={alternativeId}
                                     name={questionId}
-                                    onChange={() => setSelectedAlternative(alternativeIndex)}
+                                    onChange={() => handleSelectQuestion(alternativeIndex)}
                                     type="radio"
                                 />
                                 {alternative}
                             </Widget.Topic>
                         );
                     })}
-
-                    {/* <pre>
-                        {JSON.stringify(question, null, 4)}
-                    </pre> */}
-                    <Button type="submit" disabled={!hasAlternativeSelected}>
-                        Confirmar
-                    </Button>
-
-                    {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
-                    {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
                 </AlternativesForm>
             </Widget.Content>
         </Widget>
