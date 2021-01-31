@@ -78,21 +78,6 @@
                 "border-radius-bottom-left ",
                 "border-radius "
             ]
-        },
-        {
-            "image": "https://media.giphy.com/media/WoFB7X0atgMyKb1wBg/giphy.gif",
-            "title": " Qual é a propriedade do CSS que estabelece o raio da borda inferior esquerda do box? ",
-            "description": "",
-            "answer": 3,
-            "alternatives": [
-                "border-top-left-radius ",
-                "border-bottom-right-radius ",
-                "border-left-radius ",
-                "border-bottom-left-radius ",
-                "border-top-right-radius ",
-                "border-radius-bottom-left ",
-                "border-radius "
-            ]
         }
     ],
     "external": [
